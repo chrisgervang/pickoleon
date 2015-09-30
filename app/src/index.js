@@ -1,9 +1,9 @@
 'use strict';
 
 import React from 'react';
-import Home from './components/Home.jsx';
+import FileLoader from './components/FileLoader.jsx';
 
 React.render(
-  React.createElement(Home),
+  React.createElement(FileLoader),
   document.getElementById('root')
 );
