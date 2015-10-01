@@ -8,6 +8,7 @@ import LightRawTheme from 'mat-lib/styles/raw-themes/light-raw-theme'
 import Colors from 'mat-lib/styles/colors'
 
 import FileLoader from './FileLoader.jsx'
+import PickleBrowser from './PickleBrowser.jsx'
 
 class Home extends React.Component {
 
@@ -37,6 +38,7 @@ class Home extends React.Component {
 
     return (
       <FileLoader />
+      <PickleBrowser />
     );
   }
 
