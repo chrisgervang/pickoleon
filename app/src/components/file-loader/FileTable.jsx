@@ -36,7 +36,7 @@ export default class FileTable extends ReactCSS.Component {
       <Table
           fixedHeader={this.state.fixedHeader}
           selectable={this.state.selectable}
-          onCellClick={this._handleClick.bind(this)}
+          
           >
           <TableHeader
             enableSelectAll={this.state.enableSelectAll}
