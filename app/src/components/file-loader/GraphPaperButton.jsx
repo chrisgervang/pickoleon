@@ -1,13 +1,16 @@
-'use strict'
+'use strict';
 
-import React from 'react'
-import ReactCSS from 'reactcss'
+import React from 'react';
+import ReactCSS from 'reactcss';
+
 //Buttons
-import FlatButton from 'mat-lib/flat-button'
+import FlatButton from 'mat-lib/flat-button';
+
 //Icons
-import Poll from 'mat-lib/svg-icons/social/poll'
+import Poll from 'mat-lib/svg-icons/social/poll';
+
 //Styles
-import Colors from 'mat-lib/styles/colors'
+import Colors from 'mat-lib/styles/colors';
 
 var flatButtonSize = 36;
 var iconButtonSize = 48;
@@ -33,7 +36,7 @@ export default class GraphPaperButton extends ReactCSS.Component {
           height: '16px'
         },
       }
-    }
+    };
   }
 
   render() {

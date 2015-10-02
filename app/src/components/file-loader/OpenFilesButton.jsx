@@ -1,13 +1,16 @@
-'use strict'
+'use strict';
 
 import React from 'react';
-import ReactCSS from 'reactcss'
+import ReactCSS from 'reactcss';
+
 //Button
-import FloatingActionButton from 'mat-lib/floating-action-button'
+import FloatingActionButton from 'mat-lib/floating-action-button';
+
 //Icons
-import Add from 'mat-lib/svg-icons/content/add'
+import Add from 'mat-lib/svg-icons/content/add';
+
 //Styles
-import Colors from 'mat-lib/styles/colors'
+import Colors from 'mat-lib/styles/colors';
 
 export default class OpenFilesButton extends ReactCSS.Component {
 
@@ -25,7 +28,7 @@ export default class OpenFilesButton extends ReactCSS.Component {
           width: "100%",
         },
       }
-    }
+    };
   }
 
   render() {

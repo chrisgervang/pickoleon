@@ -18,6 +18,7 @@ module.exports = {
     disabledColor: ColorManipulator.fade(Colors.darkBlack, 0.3),
   },
 };
+
 // transparent:  'rgba(0, 0, 0, 0)',
 //   fullBlack:    'rgba(0, 0, 0, 1)',
 //   darkBlack:    'rgba(0, 0, 0, 0.87)',
@@ -27,14 +28,6 @@ module.exports = {
 //   fullWhite:    'rgba(255, 255, 255, 1)',
 //   darkWhite:    'rgba(255, 255, 255, 0.87)',
 //   lightWhite:   'rgba(255, 255, 255, 0.54)',
-
-
-
-
-
-
-
-
 
 //From theme generator
 // .dark-primary-color    { background: #455A64; }

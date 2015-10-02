@@ -1,24 +1,25 @@
-'use strict'
+'use strict';
 
 import React from 'react';
-import ReactCSS from 'reactcss'
+import ReactCSS from 'reactcss';
 
 //AppBar
-import AppBar from 'mat-lib/app-bar'
+import AppBar from 'mat-lib/app-bar';
+
 //Paper
-import Paper from 'mat-lib/paper'
+import Paper from 'mat-lib/paper';
 
-import ArrowBack from 'mat-lib/svg-icons/navigation/arrow-back'
-import MoreVert from 'mat-lib/svg-icons/navigation/more-vert'
-import IconButton from 'mat-lib/icon-button'
-import IconMenu from 'mat-lib/menus/icon-menu'
-import MenuItem from 'mat-lib/menus/menu-item'
-import Menu from 'mat-lib/menus/menu'
+import ArrowBack from 'mat-lib/svg-icons/navigation/arrow-back';
+import MoreVert from 'mat-lib/svg-icons/navigation/more-vert';
+import IconButton from 'mat-lib/icon-button';
+import IconMenu from 'mat-lib/menus/icon-menu';
+import MenuItem from 'mat-lib/menus/menu-item';
+import Menu from 'mat-lib/menus/menu';
 
-import Colors from 'mat-lib/styles/colors'
+import Colors from 'mat-lib/styles/colors';
 
-import List from 'mat-lib/list'
-import ListItem from 'mat-lib/list-item'
+import List from 'mat-lib/lists/list';
+import ListItem from 'mat-lib/lists/list-item';
 
 class PickleBrowser extends ReactCSS.Component {
 
@@ -47,7 +48,8 @@ class PickleBrowser extends ReactCSS.Component {
   }
 }
 
-export default PickleBrowser
+export default PickleBrowser;
+
 // <IconMenu iconButtonElement={<IconButton><MoreVert/></IconButton>}>
 //     <MenuItem primaryText="refresh" />
 //     <MenuItem primaryText="refresh" />
